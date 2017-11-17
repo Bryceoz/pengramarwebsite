@@ -21,17 +21,14 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
-	
-	.circle {
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 100px;
-    background-image: url('http://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ski_trail_rating_symbol-blue_square.svg/600px-Ski_trail_rating_symbol-blue_square.svg.png') ;
-    background-size: 100px;
-    background-position:center center;
-    background-repeat:no-repeat;
-}
+
+	img {
+	    border-radius: 50%;
+			height: auto;
+			width: auto;
+			max-width: 200px;
+			max-height: 200px;
+	}
 
 	body {
 		line-height: 1;
